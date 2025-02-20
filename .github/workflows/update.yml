@@ -31,10 +31,15 @@ jobs:
           # Create markdown content
           echo -e "# Hello World!\n\nThe current time of this readme update is $(date +%s)\n\n## Available Modules\n" > profile/README.md
 
-          # Process JSON with jq and append to README
+          # Process JSON with jq and append table to README
           echo "$MODULES_JSON" | jq -r '
-            .[] | 
-            "### \(.name)\n\n\(.description)\n\n**Tags:** \(.tags | join(", "))\n\n"
+            def table_row($name; $description; $tags): 
+              "| \($name) | \($description) | \($tags | join(", ")) |\n";
+            def table_header: 
+              "| Name | Description | Tags |\n| --- | --- | --- |\n";
+            
+            table_header + 
+            (map(table_row(.name; .description; .tags)) | add)
           ' >> profile/README.md
 
       - name: Commit and push changes
