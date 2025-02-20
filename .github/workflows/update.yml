@@ -34,9 +34,9 @@ jobs:
           # Process JSON with jq and append table to README
           echo "$MODULES_JSON" | jq -r '
             def table_row($name; $description; $tags): 
-              "| \($name) | \($description) | \($tags | join(", ")) |\n";
+              "| \($name) | \($description) | \($tags | join(", ")) | [Visit](https://www.wisp.tools/mod/\($slug)) |\n";
             def table_header: 
-              "| Name | Description | Tags |\n| --- | --- | --- |\n";
+              "| Name | Description | Tags | Link |\n| --- | --- | --- |\n";
             
             table_header + 
             (map(table_row(.name; .description; .tags)) | add)
