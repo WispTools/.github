@@ -29,7 +29,8 @@ jobs:
           fi
 
           # Create markdown content
-          echo -e "# Hello World!\n\nThe current time of this readme update is $(date +%s)\n\n## Available Modules\n" > profile/README.md
+          README_TEMPLATE=$(cat ./profile/TEMPLATE.md)
+          echo -e "$README_TEMPLATE" > profile/README.md
 
           # Process JSON with jq and append table to README
           echo "$MODULES_JSON" | jq -r '
