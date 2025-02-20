@@ -15,6 +15,8 @@ If you're looking to contribute, check out our [documentation](https://www.wisp.
 ## Deployment
 
 All modules are basic HTML and JS apps that are located in the `wisp-modules` repository. `wisp-web` is the front end interface that you visit on the main website, and it is built on Next.JS. These two repositories are both bundled together on deployment.
+
+## Current Modules
 | Name | Description | Link |
 | --- | --- | --- |
 | Base64 Converter | Convert base64 to text and images, and also encode into base64 | [Visit](https://www.wisp.tools/mod/base64) |
@@ -25,3 +27,5 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Text Analyzer | Shows info on the text such as the letter count, word count, and more. | [Visit](https://www.wisp.tools/mod/text-analyzer) |
 | Text Reverser | Reverse any string of text | [Visit](https://www.wisp.tools/mod/text-reverse) |
 
+
+List last fetched on **Feb 20, 2025**
