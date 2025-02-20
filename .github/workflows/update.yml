@@ -45,7 +45,7 @@ jobs:
 
           # Append footer
           TODAY=$(date +"%b %d, %Y")
-          echo -e "\nList last fetched on `$TODAY`" >> profile/README.md
+          echo -e "\nList last fetched on **$TODAY**" >> profile/README.md
 
       - name: Commit and push changes
         run: |
