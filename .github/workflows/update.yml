@@ -1,4 +1,4 @@
-name: Update README
+name: Update Modules List
 
 on:
   push:
@@ -17,14 +17,30 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Update README
+      - name: Fetch and format modules
         run: |
-          echo -e "# Hello World!\n\nThe current time of this readme update is $(date +%s)" > profile/README.md
+          # Fetch JSON from API
+          MODULES_JSON=$(curl -s https://www.wisp.tools/api/get-modules)
+
+          # Check if curl succeeded
+          if [ -z "$MODULES_JSON" ]; then
+            echo "Failed to fetch modules"
+            exit 1
+          fi
+
+          # Create markdown content
+          echo -e "# Hello World!\n\nThe current time of this readme update is $(date +%s)\n\n## Available Modules\n" > profile/README.md
+
+          # Process JSON with jq and append to README
+          echo "$MODULES_JSON" | jq -r '
+            "\(.[] | 
+              \"### \(.name)\n\n\(.description)\n\n**Tags:** \(.tags | join(", "))\n\n\") 
+            )"' >> profile/README.md
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add profile/README.md
-          git commit -m "Update README with current time [skip ci]"
+          git commit -m "Update modules list [skip ci]"
           git push
