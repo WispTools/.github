@@ -43,6 +43,10 @@ jobs:
             (map(table_row(.name; .description; .slug)) | add)
           ' >> profile/README.md
 
+          # Append footer
+          TODAY=$(date +"%b %d, %Y")
+          echo -e "\nList last fetched on **$TODAY**" >> profile/README.md
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
