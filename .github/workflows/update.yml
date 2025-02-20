@@ -36,7 +36,11 @@ jobs:
             def table_row($name; $description; $tags; $slug): 
               "| \($name) | \($description) | \($tags | join(", ")) | [Visit](https://www.wisp.tools/mod/\($slug)) |\n";
             def table_header: 
-              "| Name | Description | Tags | Link |\n| --- | --- | --- |\n";
+              "| Name | Description | Tags | Link |\n| --- | --- | --- | --- |\n";
+            
+            table_header + 
+            (map(table_row(.name; .description; .tags; .slug)) | add)
+          ' >> profile/README.md
             
             table_header + 
             (map(table_row(.name; .description; .tags)) | add)
