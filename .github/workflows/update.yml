@@ -1,4 +1,4 @@
-name: CI
+name: Update README
 
 on:
   push:
@@ -6,11 +6,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Update README
         run: |
