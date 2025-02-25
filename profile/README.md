@@ -19,7 +19,7 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 ## Current Modules
 | Name | Description | Link |
 | --- | --- | --- |
-| Base64 Converter | Convert base64 to text and images, and also encode into base64 | [Visit](https://www.wisp.tools/mod/base64) |
+| Base64 Converter | Decode base64 to text and images, and also encode into base64 | [Visit](https://www.wisp.tools/mod/base64) |
 | Binary Converter | Convert binary to text and vice versa | [Visit](https://www.wisp.tools/mod/binary) |
 | Color Converter | Convert colors between HEX, RGB, HSV, HSL, and CMYK | [Visit](https://www.wisp.tools/mod/color-converter) |
 | Lorem Ipsum Generator | Generates the lorem ipsum placeholder text. | [Visit](https://www.wisp.tools/mod/lorem-ipsum) |
@@ -28,4 +28,4 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Text Reverser | Reverse any string of text | [Visit](https://www.wisp.tools/mod/text-reverse) |
 
 
-List last fetched on **Feb 20, 2025**
+List last fetched on **Feb 25, 2025**
