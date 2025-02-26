@@ -25,7 +25,8 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Lorem Ipsum Generator | Generates the lorem ipsum placeholder text. | [Visit](https://www.wisp.tools/mod/lorem-ipsum) |
 | Morse Code Converter | Converts morse code to text and vice versa | [Visit](https://www.wisp.tools/mod/morse) |
 | Text Analyzer | Shows info on the text such as the letter count, word count, and more. | [Visit](https://www.wisp.tools/mod/text-analyzer) |
+| Text Replacer | Replace certain words and characters in text. | [Visit](https://www.wisp.tools/mod/text-replacer) |
 | Text Reverser | Reverse any string of text | [Visit](https://www.wisp.tools/mod/text-reverse) |
 
 
-List last fetched on **Feb 26, 2025** @ `1740610371`
+List last fetched on **Feb 26, 2025** @ `1740613183`
