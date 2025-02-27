@@ -2,7 +2,7 @@
 
 This page may not contain up to date info
 
-![Logo](../assets/logo.png)
+![Logo](https://www.wisp.tools/assets/meta/default.png)
 
 ### The Web Interface For Simple Tools
 
