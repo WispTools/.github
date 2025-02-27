@@ -2,7 +2,7 @@
 
 This page may not contain up to date info
 
-![Logo](../assets/logo.png)
+![Logo](https://www.wisp.tools/assets/meta/default.png)
 
 ### The Web Interface For Simple Tools
 
@@ -31,4 +31,4 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Text Reverser | Reverse any string of text | [Visit](https://www.wisp.tools/mod/text-reverse) |
 
 
-List last fetched on **Feb 27, 2025** @ `1740616207`
+List last fetched on **Feb 27, 2025** @ `1740684472`
