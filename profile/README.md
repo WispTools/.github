@@ -22,7 +22,7 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Base64 Converter | Decode base64 to text and images, and also encode into base64. | [Visit](https://www.wisp.tools/mod/base64) |
 | Binary Converter | Convert binary to text and vice versa. | [Visit](https://www.wisp.tools/mod/binary) |
 | Color Converter | Convert colors between HEX, RGB, HSV, HSL, and CMYK. | [Visit](https://www.wisp.tools/mod/color-converter) |
-| Hamburger | Hamburger. | [Visit](https://www.wisp.tools/mod/hamburger) |
+| Hamburger | Hamburger | [Visit](https://www.wisp.tools/mod/hamburger) |
 | Integer Converter | Converts numbers to and from Decimal, Hex, Binary, and Octal. | [Visit](https://www.wisp.tools/mod/int-converter) |
 | Lorem Ipsum Generator | Generates the lorem ipsum placeholder text. | [Visit](https://www.wisp.tools/mod/lorem-ipsum) |
 | Morse Code Converter | Converts morse code to text and vice versa. | [Visit](https://www.wisp.tools/mod/morse) |
@@ -32,4 +32,4 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Text Reverser | Reverse any string of text. | [Visit](https://www.wisp.tools/mod/text-reverse) |
 
 
-List last fetched on **Mar 02, 2025** @ `1740951246`
+List last fetched on **Mar 02, 2025** @ `1740952073`
