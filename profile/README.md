@@ -25,10 +25,11 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Hamburger | Hamburger | [Visit](https://www.wisp.tools/mod/hamburger) |
 | Lorem Ipsum Generator | Generates the lorem ipsum placeholder text. | [Visit](https://www.wisp.tools/mod/lorem-ipsum) |
 | Morse Code Converter | Converts morse code to text and vice versa. | [Visit](https://www.wisp.tools/mod/morse) |
+| Integer Converter | Converts numbers to and from Decimal, Hex, Binary, and Octal. | [Visit](https://www.wisp.tools/mod/number-converter) |
 | Text Analyzer | Shows info on the text such as the letter count, word count, and more. | [Visit](https://www.wisp.tools/mod/text-analyzer) |
 | Text Case Converter | Convert the case of text. | [Visit](https://www.wisp.tools/mod/text-case) |
 | Text Replacer | Replace certain words and characters in text. | [Visit](https://www.wisp.tools/mod/text-replacer) |
 | Text Reverser | Reverse any string of text | [Visit](https://www.wisp.tools/mod/text-reverse) |
 
 
-List last fetched on **Mar 02, 2025** @ `1740876471`
+List last fetched on **Mar 02, 2025** @ `1740877474`
