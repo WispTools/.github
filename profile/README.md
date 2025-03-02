@@ -1,12 +1,8 @@
-# UNDER CONSTRUCTION
+![Logo](../assets/logo.png)
 
-This page may not contain up to date info
+# The Web Interface For Simple Tools
 
-![Logo](https://www.wisp.tools/assets/meta/default.png)
-
-### The Web Interface For Simple Tools
-
-**Currently live at [wisp.tools](https://www.wisp.tools/)!**
+###**Currently live at [wisp.tools](https://www.wisp.tools/)!**
 
 ## Contributing
 
@@ -32,4 +28,4 @@ All modules are basic HTML and JS apps that are located in the `wisp-modules` re
 | Text Reverser | Reverse any string of text. | [Visit](https://www.wisp.tools/mod/text-reverse) |
 
 
-List last fetched on **Mar 02, 2025** @ `1740952073`
+List last fetched on **Mar 02, 2025** @ `1740952526`
