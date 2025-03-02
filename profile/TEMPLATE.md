@@ -1,12 +1,8 @@
-# UNDER CONSTRUCTION
-
-This page may not contain up to date info
-
 ![Logo](../assets/logo.png)
 
-### The Web Interface For Simple Tools
+# The Web Interface For Simple Tools
 
-**Currently live at [wisp.tools](https://www.wisp.tools/)!**
+###**Currently live at [wisp.tools](https://www.wisp.tools/)!**
 
 ## Contributing
 
